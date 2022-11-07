@@ -1,0 +1,154 @@
+body {
+	background-image: url("images/Paris.jpeg");
+	color: black;
+
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	line-height: 1.6;
+	letter-spacing:1px;
+
+	font-weight: lighter;
+}
+
+h1, h2, h3 {
+
+	font-family: 'Major Mono Display', monospace;
+
+	color: #FFEFD6;
+}
+
+h1 {
+
+	text-transform: uppercase;
+}
+
+
+a{
+	font-family: 'Montserrat', sans-serif;
+
+	text-decoration: none;
+
+	color: #FFEFD6;
+
+	width: 20px;
+
+}
+
+a:hover {
+	color: #9A1663;
+}
+
+
+
+p {
+  font-size: 2Opx;
+  text-align: center;
+}
+
+.container {
+	width: 900px;
+	margin : 40px auto;
+}
+
+.card {
+	background-color: #CFB997;
+	padding : 40px;
+	border-radius: 10px;
+	margin: 30px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.button {
+	background-color: #FFEFD6;
+	color: #CFB997;
+	padding: 10px 15px;
+	border-radius: 10px;
+
+}
+
+.button:hover {
+	background-color: #AA8B56;
+	color: #CFB997;
+}
+
+.list {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	list-style: none;
+	padding : 10px;
+	display : inline-block;
+}
+
+.list-inline i {
+	font-size : 50px;
+	padding : 20px 10px;
+}
+
+.img-arr {
+	border-radius: 20px;
+}
+
+.list-inline2 li {
+	list-style: none;
+	padding : 15px;
+	display : inline-block;
+}
+
+.list-inline2 p {
+	font-size: 14px;
+}
+
+.list-inline3 li {
+	list-style: none;
+	padding : 10px;
+	display : inline-block;
+}
+
+.parent-div {
+	position: relative;
+}
+
+.child-div1 {
+	border: dotted;
+	border-color: white;
+	padding: 20px 10px;
+	border-radius: 10px;
+	margin: 30px 0px;
+	width: 800px;
+}
+
+#introduction p{
+	margin-bottom: 40px;
+}
+
+@media (max-width: 920px) {
+
+	.container {
+		width: 600px;
+	}
+
+	.child-div1 {
+		width: 500px;
+	}
+}
+
+@media (max-width: 600px) {
+
+	.container {
+		width: 400px;
+	}
+
+	.child-div1 {
+		width: 300px;
+	}
+}
+
+
+
